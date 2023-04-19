@@ -1,7 +1,12 @@
+import Todo from "./components/Todo";
+
 function App() {
   return (
     <div>
-      Happy React-js learning Sanduni!
+      <h1>My TODOs</h1>
+      <Todo />
+      <Todo />
+      <Todo />
     </div>
   );
 }
